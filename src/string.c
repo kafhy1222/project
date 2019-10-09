@@ -1,5 +1,5 @@
 #include <stdio.h>
-size_t my_strlen(const char *s)
+size_t my_strlen(const char *s, const char *t)
 {
 	char *p = s;
 	while (*p) ++p;
